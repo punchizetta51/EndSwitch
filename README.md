@@ -1,0 +1,2 @@
+# EndSwitch
+ If $vRet = "" Then MsgBox($MB_SYSTEMMODAL, "Edit", "Edit aborted" &amp; @CRLF)  Else  _ArrayDisplay($vRet, "ListView " &amp; _GUIListViewEx_GetActive() &amp; " content edited", Default, 8) If $vRet = "" Then MsgBox($MB_SYSTEMMODAL, "Header edit", "Header edit aborted" &amp; @CRLF) _ArrayDisplay($vRet, "ListView " &amp; _GUIListViewEx_GetActive() &amp; " header edited", Default, 8) MsgBox($MB_SYSTEMMODAL, "Sorted", "ListView: " &amp; $vRet &amp; @CRLF) Case 4  MsgBox($MB_SYSTEMMODAL, "Dragged", "From : To" &amp; @CRLF &amp; $vRet &amp; @CRLF)     EndSwitch
